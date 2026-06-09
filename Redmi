@@ -1,0 +1,11 @@
+
+Como o site funciona por dentroEstrutura sem excessos (HTML5): O esqueleto foi construído utilizando elementos semânticos. Ele centraliza o conteúdo em um bloco principal
+(.todo-container), divide a área de digitação e reserva uma lista não ordenada (<ul>) vazia, preparada exclusivamente para receber os dados informados pelo usuário.Design
+Fluido e Moderno (CSS3): O visual adota uma identidade baseada em cores vibrantes, com um fundo em degradê (gradient) que mistura tons de roxo e violeta. Os elementos
+possuem cantos arredondados, sombras suaves para dar sensação de profundidade e uma animação suave (fadeIn) que faz as novas tarefas surgirem de forma gradual na tela.
+Comportamento Inteligente (JavaScript ES6): É o cérebro da aplicação. Ele monitora as ações do usuário em tempo real. Em vez de recarregar a página, o script manipula
+diretamente o DOM (Árvore de Elementos do Navegador) para injetar e remover blocos de código instantaneamente.⚡ Recursos e facilidades inclusasValidação de segurança: O
+sistema limpa espaços em branco e impede o cadastro de tarefas totalmente vazias, exibindo um alerta visual.Atalhos de teclado: O usuário pode adicionar tarefas tanto
+clicando no botão "Adicionar" quanto pressionando a tecla Enter enquanto digita.Foco automático: Assim que uma tarefa é enviada, o campo de texto é limpo e o cursor do 
+teclado volta para ele sozinho, agilizando a digitação em massa.Exclusão independente: Cada tarefa ganha seu próprio botão "Excluir" vinculado a um escutador de eventos
+exclusivo, garantindo que apenas o item selecionado seja apagado.
